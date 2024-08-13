@@ -1,0 +1,78 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: justify;
+    background-image: url("Imagens/padrao-sem-emenda-escuro-de-padaria-e-pastelaria-de-fundo-vector-com-alimentos-doces-e-sobremesas-para-decoracao-de-cafe-700-149142762.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 3%;
+}
+
+h2{
+    color: white;
+    margin: 2%;
+    text-decoration: underline
+    
+}
+
+h3{
+    color: white;
+}
+
+span{
+    color: rgb(239, 170, 243);
+}
+
+img{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+ol, ul{
+    margin-bottom: 5%;
+    border: 30px solid rgb(255, 198, 84);
+    border-radius: 20px;
+    background-color: rgb(20, 12, 7);
+    border-image: url("https://www.imagensempng.com.br/wp-content/uploads/2021/08/06-8.png") 150 round;
+    cursor: grab;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.95);
+    padding: 1%;
+    box-shadow: 10px 20px rgb(0, 0, 0);
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 21%;
+}
+
+ol:hover,
+ol:focus{
+    background: rgb(15, 10, 8);
+    transform: translateX(10px) scale(1.05);
+}
+
+ul:hover,
+ul:focus{
+    background: rgb(15, 10, 8);
+    transform: translateX(10px) scale(1.05);
+}
